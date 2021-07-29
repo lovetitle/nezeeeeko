@@ -1,0 +1,52 @@
+{
+  "General": {
+    "Max distance to check (outside)": 150,
+    "Max distance to check (inside)": 100,
+    "Check Interval (in seconds)": 1,
+    "Ignore Players Idle (in seconds)": 15,
+    "Ignore Team Mates": true,
+    "Only track players with active weapons": true,
+    "Ignore NPC's & Bot's": true,
+    "Track Tc's": false,
+    "Ignore distance shorter than X meters": 5.0
+  },
+  "Auto Demo Record": {
+    "Record Length (in minutes)": 5
+  },
+  "Discord": {
+    "Webhook": "https://discord.com/api/webhooks/870319857009303602/8R2Ig4vmIH6ZLKOTAIXR5-yGoOXSaw5e-UnZScJLJV5YRDwfrkJiIfYUCdpMMxD2UJco/testesp",
+    "Webhook Title": "ESP Detection",
+    "Add Radar Image": true,
+    "2 columns instead of 3": true
+  },
+  "Violations": {
+    "Probability %": 40,
+    "Samples": 20
+  },
+  "Weapon Specific Configs": [
+    {
+      "Weapon Shortname": "rifle.l96",
+      "Max distance to check (outside)": 130,
+      "Max distance to check (inside)": 50,
+      "Track": true
+    },
+    {
+      "Weapon Shortname": "rifle.bolt",
+      "Max distance to check (outside)": 120,
+      "Max distance to check (inside)": 50,
+      "Track": true
+    }
+  ],
+  "Attachment Specific Configs": [
+    {
+      "Attachment Shortname": "weapon.mod.8x.scope",
+      "Add distance while aiming": 180,
+      "Track": true
+    },
+    {
+      "Attachment Shortname": "weapon.mod.small.scope",
+      "Add distance while aiming": 180,
+      "Track": true
+    }
+  ]
+}
